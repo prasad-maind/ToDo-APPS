@@ -1,0 +1,138 @@
+#main_box_signup{
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+#label{
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(76, 83, 82);
+   }
+#sign_up_form{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+#sign_up_form > input{
+    height: 40px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 50px;
+    border: 0.5px solid #555;
+    font-weight: 600;
+    text-align: center;   
+}
+#sign_up_form > input:hover{
+    transition-duration: 0.3s;
+    border: 2px solid #555;
+    width: 375px;
+}
+#sign_up_form > input:focus{
+    transition-duration: 0.3s;
+    border: 2px solid #555;
+    width: 375px;
+}
+#button_sign_up{
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid #555555;
+    font-family: cursive;
+    border: 2px solid s#555555; 
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 50px;
+    background-image:linear-gradient(269deg, #8EC5FC 0%, #E0C3FC 100%);
+    cursor: pointer;
+}
+#button_sign_up:hover{
+    transition-duration: 1s;
+    background-image: linear-gradient(269deg, #4280dd 0%, #7740ad 100%);
+    color: white;
+    cursor: pointer;
+    
+}
+#login_page{
+    color: turquoise;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    margin-left: -197px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    }
+    #signup_dont > a{
+        color: turquoise;
+        cursor: pointer;
+        text-decoration: none;
+        
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+    }
+    #signup_dont{
+        width: 308px;
+        position: absolute;
+        left: 40%;
+        top: 89%;
+        margin-left: -95px;
+        text-decoration: none;
+    
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+    }
+
+
+    
+/* //----------------------------Header -----------------------------------------*/
+#top_bar{
+    box-shadow: 0 2px 4px #ccc;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#menu_item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin: 0 20px;
+}
+#logo_main{
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+#logo_main span{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu_item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin: 0 20px;
+}

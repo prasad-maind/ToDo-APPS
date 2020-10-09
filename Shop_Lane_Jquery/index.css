@@ -1,0 +1,198 @@
+body{
+      margin: 0 ;
+  
+}
+/* ---------------------------------------topBar--------------------------------------------------- */
+#top_bar{
+    box-shadow: 0 2px 4px #ccc;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+#left-menu{
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+}
+#menu_item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin: 0 20px;
+}
+#logo_main{
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+#logo_main span{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu_item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin: 0 20px;
+}
+
+#Profile_pic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#searchBoxForm >input[type=text] {
+    border:1px solid rgb(15, 15, 15);
+    border-radius: 4px;
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+}
+  
+#searchBoxForm > input:hover{
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #575756;
+    border-radius: 0;
+
+}
+#searchBoxForm > input:focus{
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #575756;
+    border-radius: 0;
+    outline: none;
+}
+.fa-search{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -20px;
+}
+.fa-shopping-cart{
+    position: absolute;
+    margin-left: -4%;
+}
+#rigth-menu{
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+}
+/* ---------------------------------------topBar___Ends--------------------------------------------------- */
+.homepageSection{
+    padding: 4% 8% 0;
+}
+
+/* ---------------------------------------display_slides--------------------------------------------------- */
+
+
+
+
+
+
+
+/* ---------------------------------------cloting_section--------------------------------------------------- */
+#cloting_section{
+    padding: 4% 8% 0;
+    font-family: 'PT Sans', sans-serif;
+}
+#clothing_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.product_grid{
+    width: 100%;
+    max-width: 19%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+
+}
+.product_img{
+    width: 100%;
+}
+.product-meta {
+    box-sizing: border-box;
+    padding: 16px;
+}
+.product-meta > h4 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 16px;
+}
+.product-meta > h5 {
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 0;
+    margin-top: 12px;
+}
+.product-meta > p {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #009688;
+}
+
+/* ---------------------------------------accessories_section--------------------------------------------------- */
+#accessories_section{
+    padding: 4% 8% 0;
+    font-family: 'PT Sans', sans-serif;
+
+}
+#accessories_grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+/* ---------------------------------------Footer_section--------------------------------------------------- */
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background-color: #1c1b1e;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footer-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+.footer-link {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.8;
+}
+footer > div {
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+footer > div:first-of-type {
+    padding-left: 0;
+}
+main{
+    width: 100%;
+    min-height: 80vh;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding-bottom: 8%;
+}
