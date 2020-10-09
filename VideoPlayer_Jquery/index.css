@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+/* //---------------------------Header---------------------------------------- */
+#top_bar{
+    box-shadow: 0 2px 4px #ccc;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+#menu_item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin: 0 20px;
+}
+#logo_main{
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+#logo_main span{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu_item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin: 0 20px;
+}
+
+/* //---------------------------Header---------------------------------------- */
+
+/* //---------------------------videoCards___STRATS---------------------------------------- */
+#video_card{
+    height: 325px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5%;
+    margin: 25px 25px;
+    box-shadow: 2px 2px 4px #ccc;
+}
+#Main_video_card_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#video_card img{
+    width: 100%;
+    height: 250px;
+     border-top-left-radius: 5%;
+     border-top-right-radius: 5%;
+}
+#video_card header{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 22px;
+    
+}
+#Main_video_card_div :hover{
+    transition: 0.05s;
+}
+/* //---------------------------videoCards___Ends---------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#main_div{
+    height: 650px;
+    width: 700px;
+    background-color: white;
+    position: absolute;
+    top:0;
+	bottom: 0;
+	left: 0;
+    right: 0;
+    margin: auto;
+    margin: auto;
+    border-radius: 2%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#video{
+    background-color: rgb(134, 134, 54);
+    height: 200px;
+    width: 500;
+    
+}

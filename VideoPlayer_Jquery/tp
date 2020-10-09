@@ -1,0 +1,25 @@
+    //--------------------itags-------------------------
+    // var share_1_div = document.createElement("div")
+    // share_1_div.id = "share_1"
+
+    // var a_div1 = document.createElement(a)
+    // a.href = "#"
+    // var i_div1 = document.createElement(i)
+    // i_div1.class = 'far fa-heart'
+    // a_div1.appendChild(i_div1)
+    // share_1_div.appendChild(a_div1)
+
+
+    // var a_div2 = document.createElement(a)
+    // a.href = "#"
+    // var i_div2 = document.createElement(i)
+    // i_div2.class = 'far fa-comments'
+    // a_div2.appendChild(i_div2)
+    // share_1_div.appendChild(a_div2)
+
+    // var a_div3 = document.createElement(a)
+    // a.href = "#"
+    // var i_div3 = document.createElement(i)
+    // i_div3.class = 'far fa-bookmark'
+    // a_div3.appendChild(i_div3)
+    // share_1_div.appendChild(a_div3)
